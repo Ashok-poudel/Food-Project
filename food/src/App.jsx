@@ -19,11 +19,8 @@ function App(){
  })
    return (
     <>
-      <div className="">
-        <Navbar handleOrderPopup={handleOrderPopup}/ >
-        
-      </div>
-    </>
-   ); 
-};
+    <div className=""> 
+        </div></>
+   ) 
+}
 export default App;
