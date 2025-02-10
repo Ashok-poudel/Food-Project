@@ -1,7 +1,7 @@
-import React from 'react'
+
 
 export const App = () => {
   return (
-    <div>jholeyyyyy</div>
+    <div>Hello world</div>
   )
 }
