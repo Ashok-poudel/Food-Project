@@ -2,6 +2,7 @@ import AOS from "aos"
 import "aos/dist/aos.css";
 import {useEffect, usestate} from "react";
 
+
 function App(){
     const [orderPopup, setOrderPopup] = useState(false);
    const handleOrderpopup =() =>{
@@ -18,8 +19,11 @@ function App(){
  })
    return (
     <>
-    <div className=""> 
-        </div></>
-   ) 
-}
+      <div className="">
+        <Navbar handleOrderPopup={handleOrderPopup}/ >
+        
+      </div>
+    </>
+   ); 
+};
 export default App;
