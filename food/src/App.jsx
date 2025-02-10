@@ -2,7 +2,6 @@ import AOS from "aos"
 import "aos/dist/aos.css";
 import {useEffect, usestate} from "react";
 
-
 function App(){
     const [orderPopup, setOrderPopup] = useState(false);
    const handleOrderpopup =() =>{
@@ -19,7 +18,8 @@ function App(){
  })
    return (
     <>
-    <div className=""> 
+    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200"> 
+         
         </div></>
    ) 
 }
